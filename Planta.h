@@ -18,6 +18,8 @@ public:
     void setAltura(float pAltura);
     void setDescHojas(char* pDescHojas);
     void setAlturaCultivo(int pAlturaCultivo);
+
+    Planta();
 };
 
 

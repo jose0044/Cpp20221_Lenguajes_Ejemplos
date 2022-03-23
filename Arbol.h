@@ -7,8 +7,9 @@
 
 
 #include "Planta.h"
+#include "AccionesPlanta.h"
 
-class Arbol : Planta {
+class Arbol : Planta, AccionesPlanta{
 
 };
 

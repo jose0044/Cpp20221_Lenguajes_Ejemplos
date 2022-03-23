@@ -3,3 +3,9 @@
 //
 
 #include "Arbol.h"
+#include <iostream>
+
+using namespace std;
+void fotosintesis() {
+    cout<<"Estoy haciendo la fotosintesis";
+}

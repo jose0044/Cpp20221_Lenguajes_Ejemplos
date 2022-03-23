@@ -3,4 +3,4 @@ project(C__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C__ main.cpp Planta.cpp Planta.h Arbol.cpp Arbol.h)
+add_executable(C__ main.cpp Planta.cpp Planta.h Arbol.cpp Arbol.h AccionesPlanta.cpp AccionesPlanta.h)

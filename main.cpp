@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Planta.h"
 
 void cambiarDenominadorCero(int *n2){
     if(*n2==0){
@@ -11,6 +12,10 @@ int divisionNumeros(int num1, int num2){
         throw "ERROR: Division por cero no permitida!";
     }
     return num1 / num2;
+}
+
+void verPlanta(){
+    Planta *plantula = new Planta();
 }
 
 int main() {

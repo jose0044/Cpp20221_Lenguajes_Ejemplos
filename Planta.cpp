@@ -28,3 +28,5 @@ void Planta::setDescHojas(char *pDescHojas) {
 void Planta::setAlturaCultivo(int pAlturaCultivo) {
     alturaCultivo = pAlturaCultivo;
 }
+
+Planta::Planta() = default;
